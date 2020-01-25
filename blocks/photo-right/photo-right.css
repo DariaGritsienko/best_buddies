@@ -1,0 +1,16 @@
+@import url(./__container/photo-right__container.css);
+@import url(./__content/photo-right__content.css);
+@import url(./__image/photo-right__image.css);
+@import url(./__text/photo-right__text.css);
+@import url(./__title/photo-right__title.css);
+
+.photo-right{
+  width: 100%;
+  margin-bottom: 173px;
+}
+
+@media screen and (max-width: 360px) {
+  .photo-right{
+    margin-bottom: 95px;
+  }
+}

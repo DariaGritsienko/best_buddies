@@ -1,0 +1,22 @@
+.slider__button{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #fff;
+    border: 2px solid #9397cb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #5A3F98;
+  border: 2px solid #5a3f98;
+}
+
+@media screen and (max-width: 360px) {
+  .slider__button{
+    width: 8px;
+    height: 8px;
+  }
+}

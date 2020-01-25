@@ -1,0 +1,27 @@
+.popup__button-money{
+  width: 104px;
+  height: 44px;
+  border: 2px solid #FC691B;
+  background: transparent;
+  color: #fc691b;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.popup__button-money:hover, .popup__button-money_active{
+  background: #FC691B;
+  border: 2px solid #FC691B;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 360px) {
+  .popup__button-money{
+    margin-bottom: 16px;
+    width: 96px;
+  }
+  .popup__button-money:last-child{
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,18 @@
+@import url(./__button/header__button.css);
+@import url(./__buttons/header__buttons.css);
+@import url(./__container/header__container.css);
+@import url(./__container-icon/header__container-icon.css);
+@import url(./__logo/header__logo.css);
+@import url(./__social/header__social.css);
+@import url(./__text/header__text.css);
+@import url(./__title/header__title.css);
+@import url(./__company/header__company.css);
+@import url(./__nav/header__nav.css);
+
+.header{
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  opacity: 0.9;
+  z-index: 1;
+}

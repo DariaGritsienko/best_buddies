@@ -1,0 +1,11 @@
+.photo-right__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-right__container{
+    flex-direction: column-reverse;
+  }
+}

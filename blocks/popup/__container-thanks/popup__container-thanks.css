@@ -1,0 +1,14 @@
+.popup__container-thanks{
+  width: 100%;
+  max-width: 840px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60px;
+  position: relative;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding-bottom: 104px;
+  display: none;
+}

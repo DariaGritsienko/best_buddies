@@ -1,0 +1,25 @@
+.video__container-text{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 272px;
+}
+
+@media screen and (max-width: 768px){
+  .video__container-text{
+    padding-top: 48px;
+    background: #B0EDDB;
+    max-width: 560px;
+    align-items: center;
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .video__container-text{
+    padding-top: 48px;
+    background: #B0EDDB;
+    align-items: center;
+    padding-bottom: 32px;
+  }
+}

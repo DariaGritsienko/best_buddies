@@ -1,0 +1,10 @@
+.help__container{
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px){
+  .help__container{
+    display: flex;
+    flex-direction: column;
+  }
+}

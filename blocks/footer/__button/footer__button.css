@@ -1,0 +1,25 @@
+.footer__button{
+  order: 10;
+  width: 160px;
+  color: #FFFFFF;
+  background: #FC691B;
+  border: 2px solid #FC691B;
+}
+
+.footer__button:hover{
+  color: #FFFFFF;
+  background: #5A3F98;
+  border: 2px solid #5A3F98;
+}
+
+.footer__button:active{
+  color: #FFFFFF;
+  background: #FC691B;
+  border: 2px solid #FC691B;
+}
+
+@media screen and (max-width: 1024px){
+  .footer__button{
+    width: 140px;
+  }
+}

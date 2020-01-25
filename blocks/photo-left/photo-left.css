@@ -1,0 +1,16 @@
+@import url(./__container/photo-left__container.css);
+@import url(./__content/photo-left__content.css);
+@import url(./__image/photo-left__image.css);
+@import url(./__text/photo-left__text.css);
+@import url(./__title/photo-left__title.css);
+
+.photo-left{
+  width: 100%;
+  margin-bottom: 173px;
+}
+
+@media screen and (max-width: 360px) {
+  .photo-left{
+    margin-bottom: 95px;
+  }
+}

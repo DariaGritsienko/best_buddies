@@ -1,0 +1,21 @@
+.form__progress{
+  -webkit-appearance: none;
+  border: 2px solid #fc691b;
+  border-radius: 6px;
+  width: 704px;
+  margin-bottom: 16px;
+}
+
+.form__progress::-webkit-progress-bar{
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.form__progress::-webkit-progress-value{
+  background: #FC691B;
+}
+
+@media screen and (max-width: 425px) {
+  .form__progress{
+    width: 328px;
+  }
+}

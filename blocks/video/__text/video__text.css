@@ -1,0 +1,24 @@
+.video__text{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: #333235;
+  margin: 0;
+}
+
+.video__text:first-child{
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 768px){
+  .video__text{
+    max-width: 448px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .video__text{
+    max-width: 312px;
+  }
+}

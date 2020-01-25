@@ -1,0 +1,31 @@
+.slider__image{
+  width: 100%;
+  flex: 0 0 50%;
+}
+
+.slider__image_active{
+  display: block;
+}
+
+@media screen and (max-width: 360px) {
+  .slider__image{
+    height: 254px;
+    width: 381px;
+  }
+}
+
+.pic{
+  height: 480px;
+  width: 720px;
+}
+
+
+#slider__check-1:checked ~ .slider__left > .img1,
+#slider__check-2:checked ~ .slider__left > .img2,
+#slider__check-3:checked ~ .slider__left > .img3,
+#slider__check-4:checked ~ .slider__left > .img4,
+#slider__check-5:checked ~ .slider__left > .img5
+{
+  transition: transform 0.6s ease;
+  flex: 0 0 100%;
+}

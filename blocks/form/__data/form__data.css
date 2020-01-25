@@ -1,0 +1,10 @@
+.form__data{
+
+}
+
+@media screen and (max-width: 425px) {
+  .form__data{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

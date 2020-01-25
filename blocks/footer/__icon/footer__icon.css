@@ -1,0 +1,37 @@
+.footer__icon{
+  align-self: center;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin: 0;
+}
+.footer__icon:nth-child(1), .footer__icon:nth-child(1):active{
+  background-image: url(../../../images/vk2.png);
+}
+
+.footer__icon:nth-child(1):hover{
+  background-image: url(../../../images/vk3.png);
+}
+
+.footer__icon:nth-child(2), .footer__icon:nth-child(2):active{
+  background-image: url(../../../images/fb2.png);
+}
+
+.footer__icon:nth-child(2):hover{
+  background-image: url(../../../images/fb3.png);
+}
+.footer__icon:nth-child(3), .footer__icon:nth-child(3):active{
+  background-image: url(../../../images/youtube.png);
+}
+
+.footer__icon:nth-child(3):hover{
+  background-image: url(../../../images/youtube1.png);
+}
+.footer__icon:nth-child(4), .footer__icon:nth-child(4):active{
+  background-image: url(../../../images/instagram.png);
+}
+
+.footer__icon:nth-child(4):hover{
+  background-image: url(../../../images/instagram1.png);
+}

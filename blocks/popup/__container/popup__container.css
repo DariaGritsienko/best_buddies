@@ -1,0 +1,12 @@
+.popup__container{
+  width: 100%;
+  max-width: 840px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  position: relative;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border-radius: 12px;
+  display: none;
+}

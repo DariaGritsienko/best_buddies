@@ -1,0 +1,27 @@
+.form__button-money{
+  width: 104px;
+  height: 44px;
+  border: 2px solid #FC691B;
+  background: transparent;
+  color: #fc691b;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.form__button-money:hover, .form__button-money_active{
+  background: #FC691B;
+  border: 2px solid #FC691B;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 425px) {
+  .form__button-money{
+    margin-bottom: 16px;
+    width: 96px;
+  }
+  .form__button-money:last-child{
+    margin-bottom: 0;
+  }
+}

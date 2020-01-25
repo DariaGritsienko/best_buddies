@@ -1,0 +1,25 @@
+.header__buttons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 530px;
+}
+
+@media screen and (max-width: 1024px){
+  .header__buttons{
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 798px){
+  .header__buttons{
+    max-width: 230px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header__buttons{
+    justify-content: flex-end;
+  }
+}

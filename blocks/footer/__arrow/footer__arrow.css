@@ -1,0 +1,34 @@
+.footer__arrow{
+  order: 11;
+  position: absolute;
+  background-image: url(../../../images/arrow.png);
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 32px;
+  align-self: flex-end;
+  background-position: center;
+}
+
+.footer__arrow:hover{
+  background-image: url(../../../images/arrow1.png);
+}
+
+.footer__arrow:active{
+  background-image: url(../../../images/arrow.png);
+}
+
+
+@media screen and (max-width: 425px) {
+  .footer__arrow{
+    align-self: center;
+    position: relative;
+    margin-top: 48px;
+  }
+  .footer__arrow:hover{
+    align-self: center;
+    margin-top: 43px;
+  }
+  .footer__arrow:active{
+    align-self: center;
+  }
+}

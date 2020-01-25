@@ -1,0 +1,19 @@
+.help__content-elements{
+  width: 100%;
+  display: flex;
+  margin-bottom: 48px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px){
+  .help__content-elements{
+    max-width: 640px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .help__content-elements{
+    max-width: 276px;
+  }
+}

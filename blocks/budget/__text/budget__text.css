@@ -1,0 +1,17 @@
+.budget__text{
+  width: 100%;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 8px;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #5a3f98;
+}
+
+@media screen and (max-width: 425px) {
+  .budget__text{
+    max-width: 312px;
+  }
+}

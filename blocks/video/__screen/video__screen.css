@@ -1,0 +1,13 @@
+@media screen and (max-width: 1024px){
+  .video__screen{
+    width: 95%;
+    object-position: bottom;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .video__screen{
+    width: 497px;
+    height: 280px;
+  }
+}

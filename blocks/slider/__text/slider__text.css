@@ -1,0 +1,25 @@
+.slider__text{
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: #333235;
+  margin-bottom: 24px;
+}
+
+.slider__text:last-child{
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #FC691B;
+}
+
+@media screen and (max-width: 360px) {
+  .slider__text{
+    max-width: 312px;
+    margin: 0 auto;
+  }
+}

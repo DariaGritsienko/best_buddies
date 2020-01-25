@@ -1,0 +1,12 @@
+.form__collected{
+  width: 100%;
+  max-width: 704px;
+  margin: 0 auto 40px;;
+}
+
+@media screen and (max-width: 425px) {
+  .form__collected{
+    max-width: 328px;
+    align-items: center;
+  }
+}

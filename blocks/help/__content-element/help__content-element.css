@@ -1,0 +1,13 @@
+.help__content-element{
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px){
+  .help__content-element{
+    margin-bottom: 32px;
+  }
+  .help__content-element:nth-child(3), .help__content-element:nth-child(4){
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,20 @@
+.photo-left__text{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: #333235;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+.photo-left__text:last-child{
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 360px) {
+  .photo-left__text{
+    max-width: 312px;
+    margin: 0 auto;
+  }
+}

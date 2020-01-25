@@ -1,0 +1,18 @@
+.slider__right{
+  width: 100%;
+  max-width: 396px;
+  padding-top: 61px;
+  align-self: center;
+}
+
+@media screen and (max-width: 1024px){
+  .slider__right{
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .slider__right{
+    max-width: 328px;
+  }
+}

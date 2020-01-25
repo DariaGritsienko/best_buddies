@@ -1,0 +1,40 @@
+@import url(./__button-bank/form__button-bank.css);
+@import url(./__button-yandex/form__button-yandex.css);
+@import url(./__container/form__container.css);
+@import url(./__progress/form__progress.css);
+@import url(./__text/form__text.css);
+@import url(./__sum/form__sum.css);
+@import url(./__pay/form__pay.css);
+@import url(./__link/form__link.css);
+@import url(./__button/form__button.css);
+@import url(./__buttons/form__buttons.css);
+@import url(./__button-image/form__button-image.css);
+@import url(./__button-money/form__button-money.css);
+@import url(./__checkbox/form__checkbox.css);
+@import url(./__collected/form__collected.css);
+@import url(./__data/form__data.css);
+@import url(./__error/form__error.css);
+@import url(./__image/form__image.css);
+@import url(./__input-money/form__input-money.css);
+@import url(./__input-container/form__input-container.css);
+@import url(./__data-container/form__data-container.css);
+@import url(./__element-input/form__element-input.css);
+@import url(./__element/form__element.css);
+@import url(./__elements/form__elements.css);
+@import url(./__label/form__label.css);
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 80px;
+  margin-top: 0;
+  margin-bottom: 80px
+
+}
+
+@media screen and (max-width: 425px) {
+  .form{
+    padding-top: 0;
+  }
+}

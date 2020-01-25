@@ -1,0 +1,6 @@
+.slider__images{
+  display: flex;
+  transition: transform 0.6s ease;
+  flex: 0 0 100%;
+  margin-bottom: 11px;
+}

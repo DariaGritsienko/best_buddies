@@ -1,0 +1,19 @@
+.help__mail{
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #5A3F98;
+  text-decoration: none;
+}
+
+.help__mail:hover{
+  color: #FC691B;
+}
+
+@media screen and (max-width: 425px) {
+  .help__mail{
+    text-align: left;
+  }
+}

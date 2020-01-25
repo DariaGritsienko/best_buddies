@@ -1,0 +1,12 @@
+.slider__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px){
+  .slider__container{
+    flex-direction: column;
+  }
+}

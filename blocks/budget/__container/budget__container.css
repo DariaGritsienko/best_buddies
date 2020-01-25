@@ -1,0 +1,21 @@
+.budget__container{
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 1168px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px){
+  .budget__container{
+    max-width: 704px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .budget__container{
+    max-width: 328px;
+  }
+}

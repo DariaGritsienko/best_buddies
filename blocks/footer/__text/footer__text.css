@@ -1,0 +1,24 @@
+.footer__text{
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: #333235;
+  font-weight: normal;
+  width: 100%;
+  max-width: 264px;
+  order: 5;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1024px){
+  .footer__text{
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__text{
+    order: 3;
+  }
+}

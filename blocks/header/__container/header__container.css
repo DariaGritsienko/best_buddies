@@ -1,0 +1,18 @@
+.header__container{
+  padding-left: 48px;
+  padding-top: 4px;
+}
+
+@media screen and (max-width: 1024px){
+  .header__container{
+    align-items: center;
+    display: flex;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__container{
+    display: none;
+  }
+}

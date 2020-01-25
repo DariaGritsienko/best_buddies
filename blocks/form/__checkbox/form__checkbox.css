@@ -1,0 +1,28 @@
+.form__checkbox{
+  margin-bottom: 76px;
+  display: flex;
+  align-items: center;
+  position:relative;
+	padding-left:25px;
+}
+
+.form__checkbox input[type=checkbox] {
+	display:none;
+}
+.form__checkbox label:after {
+	content:'';
+	display:block;
+	height:12px;
+	width:12px;
+  border:2px solid #333235;
+  border-radius: 4px;
+	position:absolute;
+	left:0;
+}
+.form__checkbox input[type=checkbox]:checked + label:after {
+  content: '\2713';
+	background-color: transparent;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 7px;
+}

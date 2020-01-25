@@ -1,0 +1,12 @@
+.coach__text{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: #333235;
+  margin: 0;
+}
+
+.coach__text_margin{
+  margin-bottom: 28px;
+}

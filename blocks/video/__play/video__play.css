@@ -1,0 +1,8 @@
+.video__play{
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../../images/play.png);
+}

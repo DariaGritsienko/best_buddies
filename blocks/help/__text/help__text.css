@@ -1,0 +1,23 @@
+.help__text{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #333235;
+  width: 100%;
+  max-width: 812px;
+  margin: 0 auto 17px;
+}
+
+@media screen and (max-width: 1024px){
+  .help__text{
+    max-width: 608px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .help__text{
+    text-align: left;
+  }
+}

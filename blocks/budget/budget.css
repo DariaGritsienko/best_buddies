@@ -1,0 +1,18 @@
+@import url(./__container/budget__container.css);
+@import url(./__content/budget__content.css);
+@import url(./__content-money/budget__content-money.css);
+@import url(./__content-text/budget__content-text.css);
+@import url(./__box/budget__box.css);
+@import url(./__subtitle/budget__subtitle.css);
+@import url(./__subtitle-bottom/budget__subtitle-bottom.css);
+@import url(./__text/budget__text.css);
+@import url(./__title/budget__title.css);
+@import url(./__text-box/budget__text-box.css);
+
+.budget{
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 116px;
+  background: #b0eddb;
+  margin-top: 0;
+}

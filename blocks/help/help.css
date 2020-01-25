@@ -1,0 +1,16 @@
+@import url(./__text/help__text.css);
+@import url(./__mail/help__mail.css);
+@import url(./__element-text/help__element-text.css);
+@import url(./__element-image/help__element-image.css);
+@import url(./__content-text/help__content-text.css);
+@import url(./__content-elements/help__content-elements.css);
+@import url(./__content-element/help__content-element.css);
+@import url(./__container-icon/help__container-icon.css);
+@import url(./__container/help__container.css);
+@import url(./__icon/help__icon.css);
+@import url(./__text-bottom/help__text-bottom.css);
+.help{
+  width: 100%;
+  margin-bottom: 121px;
+  padding-top: 60px;
+}

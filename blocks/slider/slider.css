@@ -1,0 +1,22 @@
+@import url(./__button/slider__button.css);
+@import url(./__buttons/slider__buttons.css);
+@import url(./__container/slider__container.css);
+@import url(./__text/slider__text.css);
+@import url(./__image/slider__image.css);
+@import url(./__images/slider__images.css);
+@import url(./__left/slider__left.css);
+@import url(./__next/slider__next.css);
+@import url(./__previous/slider__previous.css);
+@import url(./__right/slider__right.css);
+@import url(./__link/slider__link.css);
+
+.slider{
+  width: 100%;
+  margin-bottom: 114px;
+}
+
+@media screen and (max-width: 360px) {
+  .slider{
+    margin-bottom: 100px;
+  }
+}

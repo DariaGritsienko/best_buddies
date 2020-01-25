@@ -1,0 +1,29 @@
+@import url(./_is-opened/popup_is-opened.css);
+@import url(./__container/popup__container.css);
+@import url(./__close/popup__close.css);
+@import url(./__thanks-close/popup__thanks-close.css);
+@import url(./__title/popup__title.css);
+@import url(./__content/popup__content.css);
+@import url(./__checkbox/popup__checkbox.css);
+@import url(./__text/popup__text.css);
+@import url(./__icon/popup__icon.css);
+@import url(./__image/popup__image.css);
+@import url(./__social/popup__social.css);
+@import url(./__button-money/popup__button-money.css);
+@import url(./__input-money/popup__input-money.css);
+@import url(./__container-thanks/popup__container-thanks.css);
+@import url(./__input-container/popup__input-container.css);
+
+.popup {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  background: rgba(147,151,203,0.8);
+}

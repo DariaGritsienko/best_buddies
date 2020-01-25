@@ -1,0 +1,16 @@
+.coach__content{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 59px;
+}
+
+.coach__content:last-child{
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px){
+  .coach__content{
+    flex-direction: column;
+    align-items: center;
+  }
+}

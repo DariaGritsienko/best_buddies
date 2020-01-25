@@ -1,0 +1,17 @@
+.coach__image{
+  width: 510px;
+  height: 340px;
+}
+
+@media screen and (max-width: 1024px){
+  .coach__image{
+    margin-bottom: 33px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .coach__image{
+    width: 370px;
+    height: 247px;
+  }
+}

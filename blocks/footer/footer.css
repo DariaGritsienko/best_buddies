@@ -1,0 +1,23 @@
+@import url(./__button/footer__button.css);
+@import url(./__contacts/footer__contacts.css);
+@import url(./__container-icon/footer__container-icon.css);
+@import url(./__element/footer__element.css);
+@import url(./__elements/footer__elements.css);
+@import url(./__icon/footer__icon.css);
+@import url(./__logo/footer__logo.css);
+@import url(./__text/footer__text.css);
+@import url(./__title/footer__title.css);
+@import url(./__arrow/footer__arrow.css);
+
+.footer{
+  background: #D2D4EB;
+  padding-top: 48px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 360px) {
+  .footer{
+    padding-bottom: 32px;
+  }
+}

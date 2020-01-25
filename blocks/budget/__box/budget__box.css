@@ -1,0 +1,21 @@
+.budget__box{
+  width: 100%;
+  max-width: 548px;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 36px;
+  padding-bottom: 32px;
+}
+
+
+@media screen and (max-width: 1024px){
+  .budget__box{
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+  .budget__box:last-child{
+    margin-bottom: 0;
+  }
+}

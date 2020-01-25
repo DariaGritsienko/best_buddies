@@ -1,0 +1,17 @@
+@import url(./__container/coach__container.css);
+@import url(./__content/coach__content.css);
+@import url(./__content-text/coach__content-text.css);
+@import url(./__image/coach__image.css);
+@import url(./__text/coach__text.css);
+@import url(./__title/coach__title.css);
+
+.coach{
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 360px) {
+  .coach{
+    margin-bottom: 0;
+  }
+}

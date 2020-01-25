@@ -1,0 +1,16 @@
+@import url(./__section/page__section.css);
+
+.page {
+  background-color: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: 'HelveticaNeueCyr';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 360px) {
+  .page{
+    overflow-x: scroll;
+  }
+}

@@ -1,0 +1,37 @@
+.help__icon{
+  align-self: center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  margin: 0;
+}
+.help__icon:nth-child(1){
+  background-image: url(../../../images/twi.png);
+}
+
+.help__icon:nth-child(1):hover{
+  background-image: url(../../../images/twi1.png);
+}
+
+.help__icon:nth-child(2){
+  background-image: url(../../../images/vk.png);
+}
+
+.help__icon:nth-child(2):hover{
+  background-image: url(../../../images/vk1.png);
+}
+.help__icon:nth-child(3){
+  background-image: url(../../../images/fb.png);
+}
+
+.help__icon:nth-child(3):hover{
+  background-image: url(../../../images/fb1.png);
+}
+.help__icon:nth-child(4){
+  background-image: url(../../../images/subtract.png);
+}
+
+.help__icon:nth-child(4):hover{
+  background-image: url(../../../images/subtract1.png);
+}

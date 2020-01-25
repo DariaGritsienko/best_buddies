@@ -1,0 +1,10 @@
+.form__data-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+  .form__data-container{
+    flex-wrap: wrap;
+  }
+}

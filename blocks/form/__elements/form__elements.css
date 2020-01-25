@@ -1,0 +1,15 @@
+.form__elements{
+  width: 100%;
+  max-width: 344px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 425px) {
+  .form__elements{
+    max-width: 328px;
+  }
+  .form__elements:first-child{
+    margin-bottom: 24px;
+  }
+}

@@ -1,0 +1,19 @@
+.video__content{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px){
+  .video__content{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .video__content{
+    flex-direction: column-reverse;
+    align-items: self-end;
+  }
+}

@@ -1,0 +1,11 @@
+.help__content-text{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 425px) {
+  .help__content-text{
+    max-width: 328px;
+  }
+}

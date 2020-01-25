@@ -1,0 +1,6 @@
+.popup.popup_is-opened {
+  display: flex;
+}
+.popup__container-thanks.popup_is-opened{
+  display: flex;
+}

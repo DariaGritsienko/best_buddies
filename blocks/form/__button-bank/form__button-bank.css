@@ -1,0 +1,20 @@
+.form__button-bank{
+  width: 164px;
+  height: 38px;
+  margin: 0;
+  background: transparent;
+  border-width: 8px;
+  border-color: #5a3f98;
+  border-style: solid;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  color: #5a3f98;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

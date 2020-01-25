@@ -1,0 +1,17 @@
+.form__input-container{
+  display: flex;
+  align-items: center;
+  border: 2px solid #9397CB;
+  width: 224px;
+  height: 44px;
+}
+
+@media screen and (max-width: 425px) {
+  .form__input-container{
+    width: 212px;
+  }
+}
+
+.form__input-container_active{
+  border: 2px solid #FC691B;
+}

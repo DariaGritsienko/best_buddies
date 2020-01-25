@@ -1,0 +1,42 @@
+.video__button{
+  top: 384px;
+  left: 44px;
+  color: #fff;
+  position: absolute;
+  width: 184px;
+  height: 56px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.video__button:hover{
+  color: #5A3F98;
+  background: #fff;
+}
+
+.video__button:hover .video__play{
+  background-image: url(../../../images/play1.png);
+}
+
+@media screen and (max-width: 768px){
+  .video__button{
+    top: 392px;
+    left: 62px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .video__button{
+    top: 192px;
+    left: 26px;
+  }
+}

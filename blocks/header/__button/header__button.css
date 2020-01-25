@@ -1,0 +1,22 @@
+.header__button{
+  background: transparent;
+  width: 160px;
+  color: #fc691b;
+  border: 2px solid #fc691b;
+}
+
+.header__button:hover{
+  background: #fc691b;
+  color: #fff;
+}
+
+.header__button:active{
+  color: #333235;
+  background: #fc691b;
+}
+
+@media screen and (max-width: 1024px){
+  .header__button{
+    width: 140px;
+  }
+}

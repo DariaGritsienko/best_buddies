@@ -1,0 +1,17 @@
+.header__container-icon{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 228px;
+  padding-right: 53px;
+  display: none
+}
+
+@media screen and (max-width: 846px) {
+  .header__container-icon{
+    position: absolute;
+    top: 76px;
+    right: 109px;
+    padding-right: 0px;
+  }
+}

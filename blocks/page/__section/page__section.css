@@ -1,0 +1,17 @@
+.page__section{
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__section{
+    max-width: 868px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__section{
+    max-width: 704px;
+  }
+}

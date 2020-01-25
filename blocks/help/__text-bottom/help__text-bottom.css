@@ -1,0 +1,5 @@
+@media screen and (max-width: 425px) {
+  .help__text-bottom{
+    text-align: center;
+  }
+}

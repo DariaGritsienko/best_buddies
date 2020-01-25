@@ -1,0 +1,32 @@
+@import url(./__button/video__button.css);
+@import url(./__play/video__play.css);
+@import url(./__container/video__container.css);
+@import url(./__text/video__text.css);
+@import url(./__screen/video__screen.css);
+@import url(./__content/video__content.css);
+@import url(./__container-text/video__container-text.css);
+
+.video{
+  width: 100%;
+  padding-top: 136px;
+  margin-bottom: 179px;
+}
+
+@media screen and (max-width: 1024px) {
+  .video{
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video{
+    padding-top: 64px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .video{
+    padding-top: 164px;
+    margin-bottom: 99px;
+  }
+}

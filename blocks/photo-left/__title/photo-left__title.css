@@ -1,0 +1,23 @@
+.photo-left__title{
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #5a3f98;
+  margin-bottom: 44px;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1024px){
+  .photo-left__title{
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .photo-left__title{
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}

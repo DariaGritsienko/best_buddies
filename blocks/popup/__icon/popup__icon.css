@@ -1,0 +1,28 @@
+.popup__icon{
+  width: 32px;
+  height: 32px;
+}
+
+.popup__icon:nth-child(1){
+  background-image: url(../../../images/twi.png);
+}
+
+.popup__icon:nth-child(2){
+  background-image: url(../../../images/vk.png);
+}
+
+.popup__icon:nth-child(3){
+  background-image: url(../../../images/fb.png);
+}
+
+.popup__icon:nth-child(1):hover{
+  background-image: url(../../../images/twi1.png);
+}
+
+.popup__icon:nth-child(2):hover{
+  background-image: url(../../../images/vk1.png);
+}
+
+.popup__icon:nth-child(3):hover{
+  background-image: url(../../../images/fb1.png);
+}

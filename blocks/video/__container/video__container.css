@@ -1,0 +1,23 @@
+.video__container{
+  position: relative;
+}
+
+@media screen and (max-width: 1024px){
+  .video__container{
+    text-align-last: right;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .video__container{
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .video__container{
+    text-align-last: center;
+    width: 497px;
+    height: 280px;
+  }
+}

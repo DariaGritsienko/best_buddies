@@ -1,0 +1,18 @@
+.coach__content-text{
+  width: 100%;
+  max-width: 604px;
+  margin: 0;
+  align-self: center;
+}
+
+@media screen and (max-width: 1024px){
+  .coach__content-text{
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .coach__content-text{
+    max-width: 312px;
+  }
+}

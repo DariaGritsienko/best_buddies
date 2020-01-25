@@ -1,0 +1,12 @@
+.budget__title{
+  font-weight: normal;
+  width: 100%;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #333235;
+  margin: 0 auto 32px;
+  max-width: 276px;
+}

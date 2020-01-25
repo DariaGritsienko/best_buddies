@@ -1,0 +1,6 @@
+.popup__social{
+  width: 160px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+}

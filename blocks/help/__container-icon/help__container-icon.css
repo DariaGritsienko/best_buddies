@@ -1,0 +1,7 @@
+.help__container-icon{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 228px;
+  margin: 0 auto;
+}
