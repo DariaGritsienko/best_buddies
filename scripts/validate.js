@@ -99,8 +99,6 @@ const namePopup = document.querySelector('#namePopup');
 const emailPopup = document.querySelector('#emailPopup');
 const submit = document.querySelector('#submit');
 const submitOnes = document.querySelector('#submitOnes');
-let formMoney = document.querySelector('.form__money');
-let popupMoney = document.querySelector('.popup__money');
 const submitPopup = document.querySelector('#submitPopup');
 const submitOnesPopup = document.querySelector('#submitOnesPopup');
 const words = {
@@ -130,7 +128,7 @@ submit.addEventListener('click', function (event) {
 
   validation.sendForm();
 
-  pay(Number(formMoney.value), email.value);
+  pay(Number(document.querySelector('.form__money').value), email.value);
   form.reset();
 });
 submitOnes.addEventListener('click', function (event) {
@@ -138,7 +136,7 @@ submitOnes.addEventListener('click', function (event) {
 
   validation.sendForm();
 
-  pay(Number(formMoney.value), email.value);
+  pay(Number(document.querySelector('.form__money').value), email.value);
   form.reset();
 });
 submitPopup.addEventListener('click', function (event) {
@@ -146,7 +144,7 @@ submitPopup.addEventListener('click', function (event) {
 
   validation.sendFormPopup();
 
-  pay(Number(popupMoney.value), emailPopup.value);
+  pay(Number(document.querySelector('.popup__money').value), emailPopup.value);
   formPopup.reset();
 });
 submitOnesPopup.addEventListener('click', function (event) {
@@ -154,7 +152,7 @@ submitOnesPopup.addEventListener('click', function (event) {
 
   validation.sendFormPopup();
 
-  pay(Number(popupMoney.value), emailPopup.value);
+  pay(Number(document.querySelector('.popup__money').value), emailPopup.value);
   formPopup.reset();
 });
 
