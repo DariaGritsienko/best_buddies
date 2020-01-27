@@ -30,6 +30,7 @@ class Api {
     })
       .then(res => {
         if (res.ok) {
+          this.getInfo();
           return res.json();
         }
         return Promise.reject(`Ошибка: ${res.status}`);
